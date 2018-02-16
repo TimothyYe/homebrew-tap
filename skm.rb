@@ -2,7 +2,7 @@ class Skm < Formula
   desc "A simple and powerful SSH Keys Manager"
   homepage "https://github.com/TimothyYe/skm"
 	url "http://ow3g6s6og.bkt.clouddn.com/skm-mac64-0.5.tar.gz"
-  sha256 "f35208309d2ed3ff160456e6daef8f4160fdf9e4afe92bbe04a680dae118b63d"
+  sha256 "5f8a7da1d544bcee7a4d7e3809da1186aa48c59cacf6576e9156c2450b04f434"
   
   def install
     bin.install "skm"
