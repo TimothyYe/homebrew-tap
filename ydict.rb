@@ -1,8 +1,8 @@
 class Ydict < Formula
   desc "Yet another command-line dictionary for geeks!"
   homepage "https://github.com/TimothyYe/ydict"
-	url "http://ow3g6s6og.bkt.clouddn.com/ydict-mac64-1.1.1.tar.gz"
-  sha256 "52598cb337471dd1fce4f7d57d804e2638efeb50233e352e0923608d5b85a9e1"
+	url "http://ow3g6s6og.bkt.clouddn.com/ydict-mac64-1.2.tar.gz"
+  sha256 "42269542ec6e92796dc5784dc2b6f0efbd00a257dfb2f45a668bebb1aaad54af"
   
   depends_on "mpg123" => :run
   
