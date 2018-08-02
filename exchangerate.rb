@@ -1,4 +1,4 @@
-class ExchangeRate < Formula
+class Exchangerate < Formula
   desc "A command-line tool to query exchange rate"
   homepage "https://github.com/TimothyYe/exchangerate"
 	url "http://ow3g6s6og.bkt.clouddn.com/er-mac64-1.0.tar.gz"
