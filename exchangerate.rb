@@ -2,7 +2,7 @@ class Exchangerate < Formula
   desc "A command-line tool to query exchange rate"
   homepage "https://github.com/TimothyYe/exchangerate"
 	url "http://ow3g6s6og.bkt.clouddn.com/er-mac64-1.0.tar.gz"
-  sha256 "30ef638661df7f5ed77cad2762edaf6d2e763be2786cab3f8cef39eabda7eb8a"
+  sha256 "0146c710ded45b986545448049b48ba7688b8dc22adfaaf1d2db2773a827b2bd"
   
   def install
     bin.install "er"
