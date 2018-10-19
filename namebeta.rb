@@ -1,8 +1,8 @@
 class Namebeta < Formula
   desc "A command line domain query tool"
   homepage "https://github.com/TimothyYe/namebeta"
-	url "http://ow3g6s6og.bkt.clouddn.com/namebeta-mac64-0.2.tar.gz"
-  sha256 "4605834949c63fc7f38f3b9b38a8c5d53ce39d29862776758af62db9f94ac50f"
+	url "http://ow3g6s6og.bkt.clouddn.com/namebeta-mac64-0.3.tar.gz"
+  sha256 "ed253e60937b2e951365560fa8698b86ddf82d3208876ac6e337165de94c2db2"
   
   def install
     bin.install "namebeta"
