@@ -1,8 +1,8 @@
 class Ydict < Formula
   desc "Yet another command-line dictionary for geeks!"
   homepage "https://github.com/TimothyYe/ydict"
-	url "https://download.xiaozhou.xyz/ydict-mac64-1.2.1.tar.gz"
-  sha256 "5a09d55af474c3d5c98ebced74eed639befaac321ef6479827a476c24af9191a"
+	url "https://download.xiaozhou.xyz/ydict-mac64-1.3.tar.gz"
+  sha256 "0681f61f1639ded3552ac41e1b3fcf18d493cad7e9a8f46d74006cc146cea2a5"
   
   def install
     bin.install "ydict"
