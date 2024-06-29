@@ -14,9 +14,9 @@ class Skm < Formula
 
   def install
     if Hardware::CPU.intel?
-      bin.install "skm-mac64-0.8.6/skm"
+      bin.install "skm"
     elsif Hardware::CPU.arm?
-      bin.install "skm-mac-arm64-0.8.6/skm"
+      bin.install "skm"
     end
   end
 
