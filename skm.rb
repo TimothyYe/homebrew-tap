@@ -1,15 +1,15 @@
 class Skm < Formula
   desc "A simple and powerful SSH Keys Manager"
   homepage "https://github.com/TimothyYe/skm"
-  url "https://download.biturl.top/skm-mac64-0.8.6.tar.gz"
-  sha256 "1983c90b5710396a6b35f06bac0f7a69d5732e95bcea5a114f42b390eda3c4cd"
+  url "https://download.biturl.top/skm_0.8.7_darwin_amd64.tar.gz"
+  sha256 "29544a0dfa305bdb75d14a65c6ae9a03873eafe3997df23eb82fc99b39664ee9"
 
   if Hardware::CPU.intel?
-    url "https://download.biturl.top/skm-mac64-0.8.6.tar.gz"
-    sha256 "1983c90b5710396a6b35f06bac0f7a69d5732e95bcea5a114f42b390eda3c4cd"
+    url "https://download.biturl.top/skm_0.8.7_darwin_amd64.tar.gz"
+    sha256 "29544a0dfa305bdb75d14a65c6ae9a03873eafe3997df23eb82fc99b39664ee9"
   elsif Hardware::CPU.arm?
-    url "https://download.biturl.top/skm-mac-arm64-0.8.6.tar.gz"
-    sha256 "4dbfcb10f165f6b57ed3e934711620a0364ccab0dbc4c147e647a93c8e3e86fd"
+    url "https://download.biturl.top/skm_0.8.7_darwin_arm64.tar.gz"
+    sha256 "3601f300cba377019dbee620e07aea66be6a96b41fb96a835040547a72c30aea"
   end
 
   def install
